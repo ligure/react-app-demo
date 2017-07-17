@@ -1,0 +1,43 @@
+body {
+    font-family: 'Microsoft YaHei'!important;
+    overflow-y: hidden;    
+}
+
+#leftMenu {   
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    border-right: 1px solid #e9e9e9;
+}
+
+#logo {
+    display: block;
+    margin: 40px auto;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    -ms-transition:all 1s;
+    transition:all 1s;
+    &:hover {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg); 
+    }    
+}
+
+#rightWrap {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+    padding: 20px 20px 0 20px;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
